@@ -1,12 +1,12 @@
 class Solution {
 public:
     bool isHappy(int n) {
-        int num = n , digit , sum=0;
+        int x=0, sum=0;
         if(n>1 && n<7) return false;
         while(n>0)
         {
-            digit=n%10;
-            sum += digit*digit;
+            x=n%10;
+            sum += x*x;
             n=n/10;
         }
         if(sum==1)return true;
