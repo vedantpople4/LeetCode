@@ -7,8 +7,7 @@ public:
             if(nums[i]%2==0) {
                 swap(nums[i], nums[pos]);
                 pos++;
-            }       
-           
+            }                  
         }
         return nums;
     }
