@@ -10,7 +10,6 @@ public:
             p.push({dp[i], i});
         }
         return dp[0];                               
-        
     }
 };
 
